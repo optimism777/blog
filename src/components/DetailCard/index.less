@@ -1,0 +1,40 @@
+.detail-card{
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 999;
+  .card-container{
+    margin-top: 0.3rem;
+    img{
+      width: 100%;
+      height: 60vh;
+    }
+    .detail-description{
+      margin-top: .2rem;
+    }
+    .detail-content{
+      padding: .1rem 0;
+    }
+    .category-content{
+      margin: 0 .1rem;
+      padding: .1rem 0;
+      border-top: 1px solid #abcdef;
+      color: #abcdef;
+      display: flex;
+      text-align: center;
+      .prev{
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .next{
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+}
